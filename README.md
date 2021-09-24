@@ -1,1 +1,1 @@
-Inicio de aprendizado em git e html e css. Primeiro commit.
+Inicio de aprendizado em github e html e css. Primeiro commit.
