@@ -1,0 +1,104 @@
+/* Formatando body */
+body{
+font-family: arial,sans-serif;
+background-color: #ccc;
+margin: 0;
+
+}
+
+/* Formatamdo o header */
+.topo{
+
+	background-image: url(/home/alan/Documentos/aula-1/imagens/bg-3.jpg);
+	height: 500px;
+	background-position: right center;
+	background-size: cover;
+
+}
+
+.topo{border-top: 1px solid transparent;}
+
+.topo nav ul{text-align: right;
+margin-top: 30px;
+margin-right: 40px;
+
+}
+
+.topo nav li{display: inline-block;
+
+border: 1px solid white;
+}
+ 
+.topo nav a{background-color: rgba(0, 0, 0, 0.2);
+display: block;
+padding: 10px;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 10px;
+letter-spacing: 2px;
+}
+
+
+
+.topo nav a:hover{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+main{ width: 80%; margin: auto;}
+
+/*Formatando titulo*/
+
+.titulo{text-align: center;}
+
+
+
+.titulo h1{
+	margin-top: 150px;
+     color: white;
+     size: 46px;
+     text-transform: uppercase;
+     text-shadow: 3px 3px 4px black;
+     
+
+}
+
+.titulo p{
+
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	color: white;
+	text-transform: uppercase;
+}
+
+/* Formatando as sections */
+
+.um{background-color: white;
+padding: 15px;
+margin-top: 10px;
+
+}
+
+.dois{
+	background-color: white;
+	margin-top: 15px;
+	text-align: center;
+	padding: 10px;
+}
+article h2{background-color: darkgray;}
+
+.card{
+	display: inline-block;
+	margin-left: 65px;
+}
+.posicionamento{ display: inline-block; }
+.fontes{display: inline-block;}
+
+/* Configurando footer */
+footer{
+	background-color: darkgray;
+	text-align: center;
+	text-shadow: 2px 2px 2px white;
+	padding: 10px;
+}
