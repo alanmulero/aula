@@ -1,0 +1,117 @@
+*{margin: 0; padding: 0;}
+/* Formatando body */
+body{
+font-family: arial,sans-serif;
+background-color: black;
+margin: 0;
+
+}
+
+/* Formatamdo o header */
+.topo{
+
+
+	background-image: url(/home/alan/Documentos/hair/imagens/cabeleireiro.jpg);
+	height: 400px;
+	background-size: cover;
+	 border: 3px solid red;
+	}
+ 
+ /* Formatando Titulo H1 */
+
+ .titulo h1{
+
+color: rgb(240, 179, 125);
+font-family: arial ,sans-serif;
+margin-top: 40px;
+margin-left: 70px;
+font-size: 75px;
+text-shadow: 3px 3px 3px rgb(187, 50, 56);
+
+ }
+
+ .titulo p{color: rgb(207, 41, 41);
+ font-size:50px;
+ font-weight: bolder;
+ margin-top: 35px;
+ margin-left: 140px;
+ text-shadow: 3px 3px 3px rgb(240, 179, 125);
+
+}
+
+/* Formatando menu */
+    nav ul{
+		text-align: center;
+		margin-top: 15px;
+	} 
+
+	 nav li{display: inline-block;
+		margin-top: 10px;
+		border: 2px solid red;
+		margin: 5px;
+	}
+
+	nav a{background-color: rgba(0, 0, 0, 0.2);
+		display: block;
+		padding: 10px;
+		color: rgb(240, 179, 125);
+		font-weight: bolder;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 10px;
+		letter-spacing: 2px;
+		}
+		 nav a:hover{
+			background-color: rgba(236, 226, 226, 0.5);
+		}
+
+		/* main formatação*/
+		.sobre{
+			
+			background-color: black;
+			margin-top: 45px;
+			border: 2px solid red;
+		    height: 300px;
+			width: 600px;
+			line-height: 1.5;
+			font-size: 17px;
+			margin-left: 27%;
+			
+		}
+
+		.sobre p{ color: rgb(225, 233, 233); 
+		padding: 15px;
+		margin-left: 40%;
+		margin-top: 20px;
+		}
+
+		.foto{float:left;
+		display: inline-block;
+		border: 1px solid red;
+		
+		}
+
+		.mapa{
+			
+			position: absolute;
+			margin-left: 65%;
+			margin-top: -307px;
+			
+			
+			border: 2px solid red;
+		}
+		
+
+		footer{
+			margin-top: 40px;
+			background-color: rgb(48, 42, 42);
+			padding: 25px;
+			border: solid 2px red;
+			
+		
+		}
+
+         footer p{color: white;
+			size: 17px;
+			font-weight: bold;
+			}
