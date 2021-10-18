@@ -1,0 +1,98 @@
+*{margin: 0;}
+body{background-color: rgb(194, 235, 221);}
+header{background-image: linear-gradient(to right, rgb(168, 224, 196),20%, rgb(20, 63, 38));
+border: 2px solid black;
+width: 100%;
+padding: 10px;
+}
+nav ul{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+} 
+
+ nav li{display: inline-block;
+    margin-top: 10px;
+    border: 2px solid white;
+    margin: 5px;
+}
+
+nav a{background-color: rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 10px;
+    color: aquamarine;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    }
+     nav a:hover{
+        background-color: rgba(213, 230, 64, 0.5);
+    }
+    h1{color: rgb(37, 196, 236);
+        font-family: arial ,sans-serif;
+        text-shadow: 3px 3px 2px rgb(20, 20, 20);
+        text-align: center;
+        font-size: 40px;
+    }
+
+    h2{  
+        color: rgb(206, 200, 200);
+        text-shadow: 3px 3px 2px rgb(100, 140, 151);
+        text-align: center;
+
+
+
+    }
+
+
+
+main p{ color: rgb(23, 70, 60); 
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    
+    }
+    .foto{
+     text-align: center;
+    }
+    
+
+    footer{
+        position: absolute;
+        margin-top: 250px;
+        width: 100%;
+        background-image: linear-gradient(to right, rgb(231, 238, 235),20%, rgb(51, 95, 39));
+        
+    }
+footer p{
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+address h3{text-align: center;
+margin-top: 20px;
+}
+
+address p{text-align: center;}
+
+.mapa{
+ margin-top: 40px;
+ text-align: center;
+
+}
+/*
+@media screen and (max-width: 768px) {
+    body{background-color: rgb(240, 232, 232);}
+    header{background-image: linear-gradient(to right, rgb(216, 221, 219),20%, rgb(15, 15, 15));
+     border: 2px solid rgb(231, 13, 13);}
+     nav li{  border: 2px solid rgb(223, 15, 15);}
+
+     h1{color: coral;}
+     footer{background-color: rgb(173, 97, 71);}*/
+
+
+}
