@@ -1,0 +1,114 @@
+/* Formatando menu */
+.logo{
+    margin-left: 13%;
+    position: absolute;
+}
+nav ul{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: black;
+    margin-right: 14%;
+    padding: 10px;
+} 
+
+ nav li{display: inline;
+    margin-top: 10px;
+    
+    
+}
+
+nav a{
+    
+    padding: 10px;
+    color: rgb(13, 57, 177);
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    }
+     nav a:hover{
+        color: rgb(77, 77, 243);
+    }
+    /* Configurando fundo nav*/
+    .menu{
+        background-image: url(/home/alan/Documentos/fashion/imagens/topo.jpg);
+        height: 500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        margin-left: 11%;
+        margin-top: 5%;
+    }
+
+    /* Definindo main e texto */
+    section h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    section p{
+        text-align: center;
+        margin: 250px;
+        margin-top: 15px;
+        
+    }
+
+    /* imagens agrupadas*/
+
+    .romasa{
+        margin-left: 22%;
+        margin-top: -180px;
+    }
+    .fima{
+        float: left;
+        margin-top: -290px;
+        margin-left: 42%;
+    }
+
+    .kira{
+        margin-top:-292px ;
+        margin-left: 62%;
+    }
+
+    .about{background-image: url(/home/alan/Documentos/fashion/imagens/bg_detalhe.png);
+    height: 500px;
+    margin: 10%;
+    
+    }
+
+    .about h1{
+        color: white;
+        padding: 100px;}
+        
+
+    .about h2{
+        color: white;
+        margin-left: 100px;
+        margin-top: -109px;
+        font-size: 26px;
+    }    
+
+    .about p{
+        color: white;
+        margin-left: 100px;
+        margin-right: 520px;
+    }
+        .adress h3{
+            text-align: center;
+            font-size: 23px;
+            margin-top: -50px;
+        }
+        .mapa{
+            text-align: center;
+        }
+        footer{
+            background-color: rgb(43, 41, 41);
+            padding: 5px;
+            
+            margin-top: 30px;
+        }
+        footer p{
+            color: white;
+            text-align: center;
+        }
