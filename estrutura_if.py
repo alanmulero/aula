@@ -2,13 +2,20 @@
 print(' 1 = Sim')
 print(' 2 = Não')
 print('3 = Vou pensar sobre.')
-corte = int(input('Voce vai cortar o cabelo? '))
+corte: str = input('Voce vai cortar o cabelo? ')
+if corte.isdigit(): 
+    corte = int(corte)  
+else:
+    print('Dado invalido,Digite apenas 1 para Sim e 2 para não.')
+
+
 if corte == 1:
     escova = int(input('Gostaria de fazer escova também?'))
     if escova == 1:
         print('O valor total é de R$ 90.00')
     else:
-        print('Então o valor somente do corte é de R$ 60.00')
+        print('Então o valor somente do corte é de R$ 60.00', r)
+
 mechas = int(input('Voce gostaria de fazer mechas?'))
 if mechas == 1:
     hidratar = int(input('Gostaria de hidratar junto com as mechas?'))
