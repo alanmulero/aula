@@ -6,5 +6,6 @@ except ValueError:
     breack
 else:    
     print(f'O valor do aluguel por dia alugado é de : R${60.00 * dias}')
-    print(f'O valor pago pela kilometragem rodada é de : R${0,15 * km}')
-    print(f' O valor total é: {dias * 60.00 + (km * 0.75)}')
+    print(f'O valor pago pela kilometragem rodada é de : R${km * 0.15}')
+    total = (60.00 * dias) + (0.15 * km)
+    print(f'O valor total é de : {total:.2f}')
